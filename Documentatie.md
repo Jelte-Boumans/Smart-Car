@@ -31,20 +31,20 @@ Ontwerp een nieuwe en betere versie van een robotwagentje. Deze moet uitgerust w
 - PCB's
 
 # Mindmap
-Dit is een mindmap van alle doelen die het nieuwe robotwagentje moet bereiken. Het is verdeeld in een hardware en software gedeelte. In bijde delen laat ik de benodigdheden zien.
+Dit is een mindmap van alle doelen die het nieuwe robotwagentje moet bereiken. Het is verdeeld in een hardware en software gedeelte. In beide delen laat ik de benodigdheden zien.
 
 <img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Mindmap.png"/>
 
 # Hardware analyse
-Een analyse over de gemaakte keuzes voor de hardware.
+Een analyse van de gemaakte keuzes voor de hardware.
 
 ## Blokdiagram
-In deze diagram zie je alle componenten voorgesteld als blokken, je kan ook zien hoe elke groep componenten met elkaar zullen communiceren en samenwerken.
+In dit diagram zie je alle componenten voorgesteld als blokken, je kan ook zien hoe elke groep componenten met elkaar zullen communiceren en samenwerken.
 
 <img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Blokschema.png"/>
 
 ## Specificatie tabel
-Hier is een tabel met elke component van de vorige blokdiagram. Voor elke component wordt er wat info getoond.
+Hier is een tabel met elk component van het vorige blokdiagram. Over elk component wordt er wat info getoond.
 
 | Component                 | U      | I       | Winkel                    | Prijs (06/05/2022) |
 | ------------------------- | ------ | ------- | ------------------------- | ------------------ |
