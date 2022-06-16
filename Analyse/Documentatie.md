@@ -7,9 +7,9 @@ Ontwerp een nieuwe en betere versie van een robotwagentje. Deze moet uitgerust w
 # As-Is Situatie
 ### Oud robotwagentje: 
 <div "display=flex;"> 
-  <img src="[https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Old%20car1.png](https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Fotos/Old%20car1.png)" width="300"/>
-  <img src="[https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Old%20car2.png](https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Fotos/Old%20car2.png)" width="300"/>
-  <img src="[https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Old%20car3.png](https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Fotos/Old%20car3.png)" width="300"/>
+  <img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Old%20car1.png" width="300"/>
+  <img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Old%20car2.png" width="300"/>
+  <img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Old%20car3.png" width="300"/>
 </div>
 
 ### Specificaties:
