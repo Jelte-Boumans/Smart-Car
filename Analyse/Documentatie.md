@@ -7,9 +7,9 @@ Ontwerp een nieuwe en betere versie van een robotwagentje. Deze moet uitgerust w
 # As-Is Situatie
 ### Oud robotwagentje: 
 <div "display=flex;"> 
-  <img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Robotwagentje%201.jpeg" width="300"/>
-  <img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Robotwagentje%202.jpeg" width="300"/>
-  <img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Robotwagentje%203.jpeg" width="300"/>
+  <img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Robotwagentje%201.jpeg" width="300"/>
+  <img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Robotwagentje%202.jpeg" width="300"/>
+  <img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Robotwagentje%203.jpeg" width="300"/>
 </div>
 
 ### Specificaties:
@@ -33,7 +33,7 @@ Ontwerp een nieuwe en betere versie van een robotwagentje. Deze moet uitgerust w
 # Mindmap
 Dit is een mindmap van alle doelen die het nieuwe robotwagentje moet bereiken. Het is verdeeld in een hardware en software gedeelte. In beide delen laat ik de benodigdheden zien.
 
-<img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Mindmap.png"/>
+<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Mindmap.png"/>
 
 # Hardware analyse
 Een analyse van de gemaakte keuzes voor de hardware.
@@ -41,7 +41,7 @@ Een analyse van de gemaakte keuzes voor de hardware.
 ## Blokdiagram
 In dit diagram zie je alle componenten voorgesteld als blokken, je kan ook zien hoe elke groep componenten met elkaar zullen communiceren en samenwerken.
 
-<img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Blokschema.png"/>
+<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Blokschema.png"/>
 
 ## Specificatie tabel
 Hier is een tabel met elk component van het vorige blokdiagram. Over elk component wordt er wat info getoond.
@@ -84,25 +84,25 @@ Hier is een tabel met elk component van het vorige blokdiagram. Over elk compone
 ## State diagrams/Flowcharts
 Hier zijn mijn state diagrams voor wanneer het wagentje manueel bestuurd wordt en automatisch rijdt.
 
-<img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Manueel%20State%20diagram.png"/>
-<img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Automatische%20State%20diagram.png"/>
+<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Manueel%20State%20diagram.png"/>
+<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Automatische%20State%20diagram.png"/>
 
 ## NodeRED Mockups
 Hier zijn mijn ruwe schetsen hoe ik het NodeRED controlepaneel zou designen voor de manuele controle en automatisch rijden.
 
-<img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Mockup Manueel.png"/>
-<img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Mockup Automatisch.png"/>
+<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Mockup Manueel.png"/>
+<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Mockup Automatisch.png"/>
 
 # Schema's
 Dit is de 4de iteratie van mijn schema.
 
-<img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Schema_ESP.png"/>
-<img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/Schema_ATMega.png"/>
+<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Schema_ESP.png"/>
+<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Schema_ATMega.png"/>
 
 # PCB's
 Dit is de 4de iteratie van mijn PCB.
 
 <div "display=flex;"> 
-  <img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/PCB_ESP.png" width="500"/>
-  <img src="https://github.com/JelteBoumansAP/Smart-Car/blob/main/Analyse/PCB_ATMega.png" width="500"/>
+  <img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/PCB_ESP.png" width="500"/>
+  <img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/PCB_ATMega.png" width="500"/>
 </div>
