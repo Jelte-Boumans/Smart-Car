@@ -33,7 +33,8 @@ Ontwerp een nieuwe en betere versie van een robotwagentje. Deze moet uitgerust w
 # Mindmap
 Dit is een mindmap van alle doelen die het nieuwe robotwagentje moet bereiken. Het is verdeeld in een hardware en software gedeelte. In beide delen laat ik de benodigdheden zien.
 
-<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Mindmap.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Mindmap.png"/>
+
 
 # Hardware analyse
 Een analyse van de gemaakte keuzes voor de hardware.
@@ -41,7 +42,7 @@ Een analyse van de gemaakte keuzes voor de hardware.
 ## Blokdiagram
 In dit diagram zie je alle componenten voorgesteld als blokken, je kan ook zien hoe elke groep componenten met elkaar zullen communiceren en samenwerken.
 
-<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Blokschema.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Blokschema.png"/>
 
 ## Specificatie tabel
 Hier is een tabel met elk component van het vorige blokdiagram. Over elk component wordt er wat info getoond.
