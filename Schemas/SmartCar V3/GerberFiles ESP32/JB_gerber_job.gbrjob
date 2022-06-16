@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-04-24T19:20:16Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.22,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "SmartCar ESP V3"
+        },
+        "Owner": "Jelte Boumans <jelte.boumans@telenet.be>",
+        "Size": {
+            "X": 78.72,
+            "Y": 75.87
+        }
+    }
+}
