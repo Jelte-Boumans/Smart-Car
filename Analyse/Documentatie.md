@@ -51,7 +51,8 @@ Hier is een tabel met elk component van het vorige blokdiagram. Over elk compone
 | ------------------------- | ------ | ------- | ------------------------- | ------------------ |
 | ESP32                     | 3V3    | 0.5A    | [ESP32-WROVER-I](https://www.tinytronics.nl/shop/nl/communicatie-en-signalen/draadloos/wi-fi/modules/esp32-wrover-wifi-module-pcb-antenne-aansluiting)        | €5.50              |
 | ATMega328P                | 5V     | 15mA    | [ATMEGA328P-AN](https://be.farnell.com/microchip/atmega328p-an/mcu-8bit-atmega-20mhz-tqfp-32/dp/2443178)         | €3.25              |
-| Dual motor driver         | 3V3/7V | 16.5mA  | [TC78H621FNG](https://be.farnell.com/toshiba/tc78h621fng-o-el/motor-driver-ic-h-bridge-tssop/dp/3869999?st=motordriver)           | €0.70              |
+| Dual motor driver         | 3V3 | 16.5mA  | [TC78H621FNG](https://be.farnell.com/toshiba/tc78h621fng-o-el/motor-driver-ic-h-bridge-tssop/dp/3869999?st=motordriver)           | €0.70              |
+| Dual motor driver         | 7V | 1.1A  | [TC78H621FNG](https://be.farnell.com/toshiba/tc78h621fng-o-el/motor-driver-ic-h-bridge-tssop/dp/3869999?st=motordriver)           | €0.70              |
 | OLED Display              | 3V3    | 15mA    | [OLED Display](https://www.tinytronics.nl/shop/nl/displays/oled/0.96-inch-oled-display-128*64-pixels-wit)          | €7.00              |
 | USB-C                     | /      | /       | [USB4085-GF-A](https://be.farnell.com/gct-global-connector-technology/usb4085-gf-a/usb-connector-2-0-type-c-rcpt/dp/2924867?st=usb%20c%202.0)          | €0.70              |
 | USB to UART bridge        | 3V3    | 20mA    | [CP2102N-A02-GQFN28R](https://be.farnell.com/silicon-labs/cp2102n-a02-gqfn28r/usb-uart-bridge-40-to-85deg-c/dp/3387003?st=cp2102n-a02-gqfn28r)   | €2.53              |
@@ -82,28 +83,53 @@ Hier is een tabel met elk component van het vorige blokdiagram. Over elk compone
 | IR sensor       | 5V voeding                                                                                             | Analoge waarde naar ATMega        |
 | Ultrason sensor | Puls van ATMega (trigger)                                                                              | Puls naar ATMega (echo)           |
 
-## State diagrams/Flowcharts
-Hier zijn mijn state diagrams voor wanneer het wagentje manueel bestuurd wordt en automatisch rijdt.
+## Flowcharts
+Hier zijn mijn flowcharts van de software voor het sensor bordje en de ESP. Voor de ESP is het manueel besturen en automatisch rijden verdeeld in aparte charts. Maar de chart voor automatisch rijden is nog niet gemaakt.
 
-<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Manueel%20State%20diagram.png"/>
-<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Automatische%20State%20diagram.png"/>
+### Sensor bordje
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Flowchart%20Sensor%20Bord.png"/>
+
+### ESP bordje
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Flowchart%20ESP%20Bord.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Flowchart%20ESP%20bordje%20manueel.png"/>
+
+## State Diagrams
+Hier zijn mijn state diagrams voor van de software voor het sensor bordje en de ESP. Voor de ESP is de callback een aparte diagram voor de leesbaarheid te behouden.
+
+### Sensor bordje
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/State%20diagram%20Sensor%20bord.png"/>
+
+### ESP bordje
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/State%20diagram%20ESP%20bord.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/State%20diagram%20ESP%20bord%20callback.png"/>
 
 ## NodeRED Mockups
 Hier zijn mijn ruwe schetsen hoe ik het NodeRED controlepaneel zou designen voor de manuele controle en automatisch rijden.
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Mockup%20Automatisch.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Mockup%20Manueel.png"/>
 
-<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Mockup Manueel.png"/>
-<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Mockup Automatisch.png"/>
+## NodeRED Dashboard
+Hier is een screenshot van het eindresultaat van het NodeRed Dashboard
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Node%20Red%20Dashboard.png">
+
+## Behuizing Mockups
+Hier zijn mijn ruwe schetsen hoe ik de behuizing van de auto zou designen.
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Behuizing%20Mockup%201.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Behuizing%20Mockup%202.png"/>
 
 # Schema's
 Dit is de 4de iteratie van mijn schema.
-
-<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Schema_ESP.png"/>
-<img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Schema_ATMega.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/ESP%20Schema.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/ATMega%20Schema.png"/>
 
 # PCB's
 Dit is de 4de iteratie van mijn PCB.
-
 <div "display=flex;"> 
-  <img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/PCB_ESP.png" width="500"/>
-  <img src="https://github.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/PCB_ATMega.png" width="500"/>
+  <img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/ESP%20PCB.png"/>
+  <img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/ATMega%20PCB.png"/>
 </div>
+
+# Resultaat
+Dit zijn de resultaten van de schemas:
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/ESP%20PCB%20Scan.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/ATMega%20PCB%20Scan.png"/>
