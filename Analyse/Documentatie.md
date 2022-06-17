@@ -84,7 +84,7 @@ Hier is een tabel met elk component van het vorige blokdiagram. Over elk compone
 | Ultrason sensor | Puls van ATMega (trigger)                                                                              | Puls naar ATMega (echo)           |
 
 ## Flowcharts
-Hier zijn mijn flowcharts van de software voor het sensor bordje en de ESP. Voor de ESP is het manueel besturen en automatisch rijden verdeeld in aparte charts. Maar de chart voor automatisch rijden is nog niet gemaakt.
+Hier zijn mijn flowcharts van de software voor het sensor bordje en de ESP. Voor de ESP is het manueel besturen en automatisch rijden verdeeld in aparte charts.
 
 ### Sensor bordje
 <img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Flowchart%20Sensor%20Bord.png"/>
