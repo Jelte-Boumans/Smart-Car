@@ -91,7 +91,8 @@ Hier zijn mijn flowcharts van de software voor het sensor bordje en de ESP. Voor
 
 ### ESP bordje
 <img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Flowchart%20ESP%20Bord.png"/>
-<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Flowchart%20ESP%20bordje%20manueel.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Flowchart%20ESP%20Bord%20manueel.png"/>
+<img src="https://raw.githubusercontent.com/JelteBoumansAP/Smart-Car/main/Analyse/Fotos/Flowchart%20ESP%20Bord%20automatisch.png"/>
 
 ## State Diagrams
 Hier zijn mijn state diagrams voor van de software voor het sensor bordje en de ESP. Voor de ESP is de callback een aparte diagram voor de leesbaarheid te behouden.
